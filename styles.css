@@ -1,0 +1,25 @@
+.container {
+  border: 2px dashed #aaa;
+  padding: 20px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.file-input-container:hover {
+  border-color: #666;
+}
+
+.file-input {
+  display: none;
+}
+
+img {
+  max-width: 100%;
+  max-height: 300px;
+  display: none;
+}
+
+.result {
+  word-break: break-all;
+}
